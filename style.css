@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header-background {
+    background-image: url('espaco.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px; 
+    text-align: center;
+    position: relative;
+}
+
+
+.navigation {
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul li {
+    margin: 0 10px;
+}
+
+.navigation ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.navigation ul a:hover {
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+.logo-grande {
+    height: 450px; 
+}
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700; 
+    color: #333;
+}
+
+.week {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; 
+}
+
+.week h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #444;
+}
+
+.day {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.day h4 {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1em;
+}
+
+ul a {
+    color: #0066cc;
+    text-decoration: none; 
+    transition: color 0.2s;
+}
+
+ul a:hover {
+    color: #000000;
+    text-decoration: underline; 
+}
+
+.final-project {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff; 
+    margin-bottom: 30px;
+}
+
+.final-project h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: #444;
+}
+
+.final-project h3 {
+    font-size: 1.5em;
+    color: #444;
+    font-weight: 700;
+}
+
+.final-project h4 {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 700;
+}
+
+.final-project p, 
+.final-project ul {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.final-project ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.final-project li {
+    font-size: 1em;
+}
+
+.video-link {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: bold;
+}
+
+.video-link:hover {
+    color: #003366;
+    text-decoration: underline; 
+}
+
+.fim{
+    text-align: center;
+}
