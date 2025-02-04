@@ -60,6 +60,14 @@ body {
     height: 450px; 
 }
 
+.logo-container img {
+    transition: 0.3s;
+}
+
+.logo-container img:hover {
+    opacity: 0.7;
+}
+
 .content {
     padding: 30px;
 }
